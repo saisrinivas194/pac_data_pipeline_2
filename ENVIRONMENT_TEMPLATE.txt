@@ -1,0 +1,30 @@
+Copy this file to .env and add your real credentials
+
+# For CSV Pipeline Only
+FIREBASE_PROJECT_ID=your_project_name_here
+FIREBASE_PRIVATE_KEY_ID=your_private_key_id_here
+FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nyour_private_key_here\n-----END PRIVATE KEY-----\n"
+FIREBASE_CLIENT_EMAIL=your_service_account@your_project.iam.gserviceaccount.com
+FIREBASE_CLIENT_ID=your_client_id_here
+
+# For Snowflake Pipeline (also include Firebase above)
+SNOWFLAKE_USER=your_snowflake_username
+SNOWFLAKE_PASSWORD=your_snowflake_password
+SNOWFLAKE_ACCOUNT=your_account_identifier
+SNOWFLAKE_WAREHOUSE=your_warehouse_name
+SNOWFLAKE_DATABASE=your_database_name
+SNOWFLAKE_SCHEMA=your_schema_name
+
+# For Index Align Database (also include Firebase above)
+INDEX_ALIGN_SSH_HOST=indexalign
+INDEX_ALIGN_SSH_USER=ubuntu
+INDEX_ALIGN_SSH_PORT=22
+INDEX_ALIGN_SSH_KEY_PATH=/path/to/your/.ssh/id_rsa
+# OR use password (if not using SSH key):
+# INDEX_ALIGN_SSH_PASSWORD=your_ssh_password
+INDEX_ALIGN_DB_HOST=127.0.0.1
+INDEX_ALIGN_DB_PORT=3306
+INDEX_ALIGN_DB_NAME=indexalign
+INDEX_ALIGN_DB_USER=root
+INDEX_ALIGN_DB_PASSWORD=your_database_password
+

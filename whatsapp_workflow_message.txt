@@ -1,0 +1,19 @@
+Index Align to Firebase Pipeline Workflow
+
+1. Retrieves data from Index Align database
+2. Transforms the data (ticker to company_id mapping)
+3. Exports ALL data to JSON file for review
+4. Auto-opens JSON file in your default viewer
+5. Shows summary statistics and file location
+6. Waits for you to review the JSON file
+7. Asks: "Do you APPROVE this data for upload?"
+8. Only uploads to Firebase if you type 'yes'
+
+Safety Features:
+- Manual review required before upload
+- Complete data export for verification
+- Explicit approval needed
+- No automatic uploads
+
+IMPORTANT: Review the JSON file carefully before approving!
+
