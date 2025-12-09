@@ -1,6 +1,6 @@
 # Index Align to Firebase Data Pipeline
 
-Professional data pipelines for transferring data from Index Align database to Firebase Realtime Database.
+Data pipelines for transferring data from Index Align database to Firebase Realtime Database.
 
 ## Pipelines
 
